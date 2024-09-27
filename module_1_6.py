@@ -1,0 +1,16 @@
+my_dict = {'ignat': 1974, 'elena': 1977, 'misha': 1999}
+print(my_dict)
+print(my_dict['ignat'])
+print(my_dict.get('fedor'))
+my_dict.update({'den': 1988, 'lora': 1965})
+print(my_dict)
+# my_dict.pop('lora')
+# print(my_dict)
+c = my_dict.pop('lora')
+print(c)
+# my_set = {1, 3, 5, 2.544, 3, 2,'gora'}
+# print(my_set)
+# my_set.update([362, 584])
+# print(my_set)
+# my_set.remove('gora')
+# print(my_set)
